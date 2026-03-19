@@ -1,0 +1,188 @@
+{
+  "pizze": [
+    {
+      "id": 1,
+      "nome": "Margherita",
+      "descrizione": "Pomodoro, mozzarella, basilico fresco",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Basilico"],
+      "prezzi": {
+        "baby": 4.50,
+        "normale": 6.00,
+        "media": 8.50,
+        "maxi": 12.00
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Marinara",
+      "descrizione": "Pomodoro, aglio, origano, olio extravergine",
+      "ingredienti": ["Pomodoro", "Aglio", "Origano", "Olio EVO"],
+      "prezzi": {
+        "baby": 4.00,
+        "normale": 5.50,
+        "media": 7.50,
+        "maxi": 10.00
+      }
+    },
+    {
+      "id": 3,
+      "nome": "Diavola",
+      "descrizione": "Pomodoro, mozzarella, salame piccante",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Salame piccante"],
+      "prezzi": {
+        "baby": 5.50,
+        "normale": 7.50,
+        "media": 10.50,
+        "maxi": 15.00
+      }
+    },
+    {
+      "id": 4,
+      "nome": "Quattro Formaggi",
+      "descrizione": "Mozzarella, gorgonzola, fontina, parmigiano",
+      "ingredienti": ["Mozzarella", "Gorgonzola", "Fontina", "Parmigiano"],
+      "prezzi": {
+        "baby": 6.00,
+        "normale": 8.50,
+        "media": 12.00,
+        "maxi": 17.00
+      }
+    },
+    {
+      "id": 5,
+      "nome": "Prosciutto e Funghi",
+      "descrizione": "Pomodoro, mozzarella, prosciutto cotto, funghi",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Prosciutto cotto", "Funghi"],
+      "prezzi": {
+        "baby": 5.50,
+        "normale": 7.50,
+        "media": 10.50,
+        "maxi": 15.00
+      }
+    },
+    {
+      "id": 6,
+      "nome": "Capricciosa",
+      "descrizione": "Pomodoro, mozzarella, prosciutto, funghi, carciofi, olive",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Prosciutto", "Funghi", "Carciofi", "Olive"],
+      "prezzi": {
+        "baby": 6.50,
+        "normale": 9.00,
+        "media": 13.00,
+        "maxi": 18.50
+      }
+    },
+    {
+      "id": 7,
+      "nome": "Quattro Stagioni",
+      "descrizione": "Pomodoro, mozzarella, prosciutto, funghi, carciofi, olive",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Prosciutto", "Funghi", "Carciofi", "Olive"],
+      "prezzi": {
+        "baby": 6.50,
+        "normale": 9.00,
+        "media": 13.00,
+        "maxi": 18.50
+      }
+    },
+    {
+      "id": 8,
+      "nome": "Wurstel e Patatine",
+      "descrizione": "Pomodoro, mozzarella, wurstel, patatine fritte",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Wurstel", "Patatine"],
+      "prezzi": {
+        "baby": 5.50,
+        "normale": 7.50,
+        "media": 10.50,
+        "maxi": 15.00
+      }
+    },
+    {
+      "id": 9,
+      "nome": "El Rapido Special",
+      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "prezzi": {
+        "baby": 6.50,
+        "normale": 9.50,
+        "media": 13.50,
+        "maxi": 19.00
+      }
+    },
+    {
+      "id": 10,
+      "nome": "Bufalina",
+      "descrizione": "Pomodoro, mozzarella di bufala, pomodorini, basilico",
+      "ingredienti": ["Pomodoro", "Mozzarella di bufala", "Pomodorini", "Basilico"],
+      "prezzi": {
+        "baby": 6.00,
+        "normale": 8.50,
+        "media": 12.00,
+        "maxi": 17.00
+      }
+    }
+  ],
+  "rotolini": [
+    {
+      "id": 101,
+      "nome": "Rotolini al Pomodoro",
+      "descrizione": "6 rotolini di pizza con salsa di pomodoro e mozzarella",
+      "prezzo": 4.50
+    },
+    {
+      "id": 102,
+      "nome": "Rotolini al Prosciutto",
+      "descrizione": "6 rotolini di pizza con prosciutto cotto e mozzarella",
+      "prezzo": 5.00
+    },
+    {
+      "id": 103,
+      "nome": "Rotolini alla Nutella",
+      "descrizione": "6 rotolini di pizza con Nutella",
+      "prezzo": 5.50
+    },
+    {
+      "id": 104,
+      "nome": "Rotolini Spinaci e Ricotta",
+      "descrizione": "6 rotolini di pizza con spinaci e ricotta",
+      "prezzo": 5.50
+    }
+  ],
+  "stuzzichini": [
+    {
+      "id": 201,
+      "nome": "Patatine Fritte",
+      "descrizione": "Porzione di patatine fritte croccanti",
+      "prezzo": 3.50
+    },
+    {
+      "id": 202,
+      "nome": "Olive Ascolane",
+      "descrizione": "10 olive all'ascolana fritte",
+      "prezzo": 5.00
+    },
+    {
+      "id": 203,
+      "nome": "Crocchette di Patate",
+      "descrizione": "6 crocchette di patate filanti",
+      "prezzo": 4.50
+    },
+    {
+      "id": 204,
+      "nome": "Mozzarelline Fritte",
+      "descrizione": "10 mozzarelline fritte con salsa",
+      "prezzo": 5.50
+    },
+    {
+      "id": 205,
+      "nome": "Alette di Pollo",
+      "descrizione": "6 alette di pollo piccanti",
+      "prezzo": 6.00
+    },
+    {
+      "id": 206,
+      "nome": "Pane all'Aglio",
+      "descrizione": "Pane con burro all'aglio e prezzemolo",
+      "prezzo": 3.50
+    }
+  ]
+}
