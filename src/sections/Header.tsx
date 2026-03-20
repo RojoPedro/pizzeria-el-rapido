@@ -9,9 +9,9 @@ export function Header() {
           <div className="flex items-center gap-4">
             <div className="relative">
               <img 
-                src="/images/mascotte.png" 
-                alt="Mascotte El Rapido" 
-                className="w-20 h-20 md:w-24 md:h-24 object-contain drop-shadow-lg"
+                src="/images/logonuovo.png" 
+                alt="Logo El Rapido" 
+                className="w-20 h-20 md:w-24 md:h-24 object-cover rounded-full drop-shadow-lg"
               />
             </div>
             <div>
@@ -28,19 +28,19 @@ export function Header() {
           <div className="flex flex-col sm:flex-row gap-4 text-sm">
             <div className="flex items-center gap-2 bg-red-800/50 px-4 py-2 rounded-full">
               <Phone className="w-4 h-4" />
-              <span className="font-semibold">0123 456789</span>
+              <span className="font-semibold">0421 345651</span>
             </div>
             <div className="flex items-center gap-2 bg-red-800/50 px-4 py-2 rounded-full">
               <MapPin className="w-4 h-4" />
-              <span>Via Roma 123, Milano</span>
+              <span>Via Pio X 33, Meolo</span>
             </div>
             <div className="flex items-center gap-2 bg-red-800/50 px-4 py-2 rounded-full">
               <Clock className="w-4 h-4" />
-              <span>19:00 - 23:30</span>
+              <span>17:30 - 21:15</span>
             </div>
           </div>
         </div>
-      </div>
+      </div>  
     </header>
   );
 }
