@@ -54,11 +54,11 @@ function App() {
         <section className="bg-gradient-to-b from-red-700 to-red-600 text-white py-16 px-4">
           <div className="container mx-auto max-w-4xl text-center">
             <div className="flex justify-center mb-6">
-              <img 
+              {/* <img 
                 src="/images/mascotte.png" 
                 alt="Mascotte El Rapido" 
                 className="w-32 h-32 md:w-48 md:h-48 object-contain drop-shadow-2xl"
-              />
+              /> */}
             </div>
             <h2 className="text-4xl md:text-5xl font-extrabold mb-4">
               La Pizza Più Veloce! ⚡
