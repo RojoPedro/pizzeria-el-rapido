@@ -27,181 +27,181 @@
     {
       "id": 3,
       "nome": "Romana",
-      "descrizione": "Pomodoro, mozzarella, salame piccante",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame piccante"],
+      "descrizione": "Pomodoro, mozzarella, acciughe",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Acciughe"],
       "prezzi": {
         "baby": 5.50,
-        "normale": 7.50,
-        "media": 10.50,
-        "maxi": 15.00
+        "normale": 6.50,
+        "media": 10.00,
+        "maxi": 15.50
       }
     },
     {
       "id": 4,
       "nome": "Siciliana",
-      "descrizione": "Mozzarella, gorgonzola, fontina, parmigiano",
-      "ingredienti": ["Mozzarella", "Gorgonzola", "Fontina", "Parmigiano"],
+      "descrizione": "Pomodoro, mozzarella, acciughe, capperi, olive",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Acciughe", "Capperi", "Olive"],
       "prezzi": {
         "baby": 6.00,
-        "normale": 8.50,
-        "media": 12.00,
-        "maxi": 17.00
+        "normale": 7.00,
+        "media": 11.00,
+        "maxi": 16.50
       }
     },
     {
       "id": 5,
       "nome": "Pugliese",
-      "descrizione": "Pomodoro, mozzarella, prosciutto cotto, funghi",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Prosciutto cotto", "Funghi"],
+      "descrizione": "Pomodoro, mozzarella, cipolla",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Cipolla"],
       "prezzi": {
         "baby": 5.50,
-        "normale": 7.50,
-        "media": 10.50,
-        "maxi": 15.00
+        "normale": 6.00,
+        "media": 10.00,
+        "maxi": 14.50
       }
     },
     {
       "id": 6,
       "nome": "Prosciutto",
-      "descrizione": "Pomodoro, mozzarella, prosciutto, funghi, carciofi, olive",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Prosciutto", "Funghi", "Carciofi", "Olive"],
+      "descrizione": "Pomodoro, mozzarella, prosciutto cotto",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Prosciutto Cotto"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.00,
-        "media": 13.00,
-        "maxi": 18.50
+        "normale": 6.50,
+        "media": 10.00,
+        "maxi": 15.50
       }
     },
     {
       "id": 7,
       "nome": "Funghi",
-      "descrizione": "Pomodoro, mozzarella, prosciutto, funghi, carciofi, olive",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Prosciutto", "Funghi", "Carciofi", "Olive"],
+      "descrizione": "Pomodoro, mozzarella, funghi",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Funghi"],
       "prezzi": {
-        "baby": 6.50,
-        "normale": 9.00,
-        "media": 13.00,
-        "maxi": 18.50
+        "baby": 6.00,
+        "normale": 6.00,
+        "media": 10.00,
+        "maxi": 14.50
       }
     },
     {
       "id": 8,
       "nome": "Tris di Funghi",
-      "descrizione": "Pomodoro, mozzarella, wurstel, patatine fritte",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Wurstel", "Patatine"],
+      "descrizione": "Pomodoro, mozzarella, chiodini, porcini, trifolati",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Chiodini", "Porcini", "Trifolati"],
       "prezzi": {
         "baby": 5.50,
         "normale": 7.50,
-        "media": 10.50,
-        "maxi": 15.00
+        "media": 11.00,
+        "maxi": 16.00
       }
     },
     {
       "id": 9,
       "nome": "Asparagi",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "descrizione": "Pomodoro, mozzarella, asparagi",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Asparagi"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 6.00,
+        "media": 10.00,
+        "maxi": 14.50
       }
     },
     {
       "id": 10,
       "nome": "Prosciutto e Funghi",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "descrizione": "Pomodoro, mozzarella, prosciutto cotto, funghi",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Prosciutto Cotto", "Funghi"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 6.50,
+        "media": 10.00,
+        "maxi": 16.50
       }
     },
     {
       "id": 11,
       "nome": "Capricciosa",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "descrizione": "Pomodoro, mozzarella, prosciutto cotto, funghi, carciofi",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Prosciutto Cotto", "Funghi", "Carciofi"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.00,
+        "media": 11.00,
+        "maxi": 17.50
       }
     },
     {
       "id": 12,
       "nome": "4 Stagioni",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "descrizione": "Pomodoro, mozzarella, prosciutto cotto, funghi, carciofi, olive",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Prosciutto Cotto", "Funghi", "Carciofi", "Olive"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.00,
+        "media": 11.00,
+        "maxi": 17.50
       }
     },
     {
       "id": 13,
       "nome": "Viennese",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "descrizione": "Pomodoro, mozzarella, würstel",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Würstel"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 6.50,
+        "media": 10.50,
+        "maxi": 16.50
       }
     },
     {
       "id": 14,
       "nome": "Diavola",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "descrizione": "Pomodoro, mozzarella, salamino piccante",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Salamino Piccante"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 6.50,
+        "media": 11.00,
+        "maxi": 16.50
       }
     },
     {
       "id": 15,
       "nome": "Chiodini",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "descrizione": "Pomodoro, mozzarella, chiodini",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Chiodini"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 6.00,
+        "media": 10.00,
+        "maxi": 15.50
       }
     },
     {
       "id": 16,
       "nome": "Porcini",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "descrizione": "Pomodoro, mozzarella, porcini",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Porcini"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 6.50,
+        "media": 10.50,
+        "maxi": 16.00
       }
     },
     {
       "id": 17,
       "nome": "4 Formaggi",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "descrizione": "Pomodoro, mozzarella, gorgonzola, brie, provola, grana",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Gorgonzola", "Brie", "Provola", "Grana"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.00,
+        "media": 11.00,
+        "maxi": 17.50
       }
     },
     {
@@ -211,9 +211,9 @@
       "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 6.50,
+        "media": 6.50,
+        "maxi": 6.50
       }
     },
     {
@@ -222,586 +222,574 @@
       "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
       "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
       "prezzi": {
-        "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "baby": 7.00,
+        "normale": 7.00,
+        "media": 7.00,
+        "maxi": 7.00
       }
     },
     {
       "id": 20,
       "nome": "Tonno",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "descrizione": "Pomodoro, mozzarella, tonno",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Tonno"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 6.50,
+        "media": 10.00,
+        "maxi": 15.50
       }
     },
     {
       "id": 21,
       "nome": "Tonno e Cipolla",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "descrizione": "Pomodoro, mozzarella, tonno, cipolla",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Tonno", "Cipolla"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.00,
+        "media": 11.00,
+        "maxi": 16.50
       }
     },
     {
       "id": 22,
       "nome": "Delicata",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "descrizione": "Pomodoro, mozzarella, stracchino, arrosto di tacchino",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Stracchino", "Arrosto di Tacchino"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
-      }
-    },
-    {
-      "id": 23,
-      "nome": "Delicata",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
-      "prezzi": {
-        "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
-      }
-    },
-    {
-      "id": 24,
-      "nome": "Tartufo e Speck",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
-      "prezzi": {
-        "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.50,
+        "media": 10.50,
+        "maxi": 16.50
       }
     },
     {
       "id": 25,
-      "nome": "Tartufo e Culatello",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Tartufo e Speck",
+      "descrizione": "Pomodoro, mozzarella, tartufo, speck",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Tartufo", "Speck"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.00,
+        "media": 11.00,
+        "maxi": 17.50
       }
     },
     {
       "id": 26,
-      "nome": "Tartufo e Pancetta",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Tartufo e Culatello",
+      "descrizione": "Pomodoro, mozzarella, tartufo, culatello",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Tartufo", "Culatello"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.00,
+        "media": 10.00,
+        "maxi": 17.50
       }
     },
     {
       "id": 27,
-      "nome": "Tartufo e Arrosto di Tacchino",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Tartufo e Pancetta",
+      "descrizione": "Pomodoro, mozzarella, tartufo, pancetta",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Tartufo", "Pancetta"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.00,
+        "media": 10.00,
+        "maxi": 17.50
       }
     },
     {
       "id": 28,
-      "nome": "Piccante",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Tartufo e Arrosto di Tacchino",
+      "descrizione": "Pomodoro, mozzarella, tartufo, arrosto di tacchino",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Tartufo", "Arrosto di Tacchino"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.00,
+        "media": 11.00,
+        "maxi": 17.50
       }
     },
     {
       "id": 29,
-      "nome": "Carciofona",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Piccante",
+      "descrizione": "Pomodoro, mozzarella, salsiccia, salamino piccante, pancetta",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Salsiccia", "Salamino Piccante", "Pancetta"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.50,
+        "media": 12.00,
+        "maxi": 18.50
       }
     },
     {
       "id": 30,
-      "nome": "Asparagona",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Carciofona",
+      "descrizione": "Crema di Carciofi, mozzarella, tartufo, culatello, carciofi",
+      "ingredienti": ["Crema di Carciofi", "Mozzarella", "Tartufo", "Culatello", "Carciofi"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.50,
+        "media": 12.00,
+        "maxi": 18.50
       }
     },
     {
       "id": 31,
-      "nome": "Montanara",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Asparagiona",
+      "descrizione": "crema di asparagi, mozzarella, tartufo, speck cotto al forno, asparagi",
+      "ingredienti": ["Crema di Asparagi", "Mozzarella", "Tartufo", "Speck cotto al forno", "Asparagi"],
       "prezzi": {
-        "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "baby": 8.50,
+        "normale": 8.50,
+        "media": 12.00,
+        "maxi": 18.50
       }
     },
     {
       "id": 32,
-      "nome": "Treviso (in stagione)",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Montanara",
+      "descrizione": "Pomodoro, mozzarella, tartufo, pancetta, porcini",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Tartufo", "Pancetta", "Porcini"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.50,
+        "media": 12.00,
+        "maxi": 18.50
       }
     },
     {
       "id": 33,
-      "nome": "Crema di Asparagi",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Treviso (in stagione)",
+      "descrizione": "Crema di radicchio, mozzarella, tartufo, arrosto di tacchino, radicchio di Treviso",
+      "ingredienti": ["Crema di Radicchio", "Mozzarella", "Tartufo", "Arrosto di Tacchino", "Radicchio di Treviso"],
       "prezzi": {
         "baby": 6.50,
         "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "media": 12.00,
+        "maxi": 18.50
       }
     },
     {
       "id": 34,
-      "nome": "Crema di Carciofi",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Crema di Asparagi",
+      "descrizione": "Crema di asparagi, asparagi, mozzarella",
+      "ingredienti": ["Crema di Asparagi, Asparagi, Mozzarella"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.50,
+        "media": 10.50,
+        "maxi": 16.00
       }
     },
     {
       "id": 35,
-      "nome": "Crema di Porcini",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Crema di Carciofi",
+      "descrizione": "Crema di carciofi, carciofi, mozzarella",
+      "ingredienti": ["Crema di Carciofi", "Carciofi", "Mozzarella"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.50,
+        "media": 10.50,
+        "maxi": 16.00
       }
     },
     {
       "id": 36,
-      "nome": "Crema di Radicchio (in stagione)",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Crema di Porcini",
+      "descrizione": "Crema di porcini, porcini, mozzarella",
+      "ingredienti": ["Crema di Porcini", "Porcini", "Mozzarella"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.50,
+        "media": 10.50,
+        "maxi": 16.00
       }
     },
     {
       "id": 37,
-      "nome": "Rustica",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Crema di Radicchio (in stagione)",
+      "descrizione": "Crema di Radicchio, radicchio, mozzarella",
+      "ingredienti": ["Crema di Radicchio", "Radicchio", "Mozzarella"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.50,
+        "media": 10.50,
+        "maxi": 16.00
       }
     },
     {
       "id": 38,
-      "nome": "Sfiziosa",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Rustica",
+      "descrizione": "Pomodoro, mozzarella, salamino, porcini",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Salamino", "Porcini"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.00,
+        "media": 12.00,
+        "maxi": 17.50
       }
     },
     {
       "id": 39,
-      "nome": "Matriciana",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Sfiziosa",
+      "descrizione": "Pomodoro, mozzarella, panna, speck",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Panna", "Speck"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.00,
+        "media": 10.50,
+        "maxi": 16.50
       }
     },
     {
       "id": 40,
-      "nome": "Fresca",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Amatriciana",
+      "descrizione": "Pomodoro, mozzarella, pancetta, cipolla, peperoncino",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Pancetta", "Cipolla", "Peperoncino"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.00,
+        "media": 10.50,
+        "maxi": 16.50
       }
     },
     {
       "id": 41,
-      "nome": "Gustosa",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Fresca",
+      "descrizione": "Pomodoro, mozzarella, bressaola, rucola, grana a scaglie",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Bresaola", "Rucola", "Grana a Scaglie"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.00,
+        "media": 11.50,
+        "maxi": 17.50
       }
     },
     {
       "id": 42,
-      "nome": "Patapizza",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Gustosa",
+      "descrizione": "Pomodoro, mozzarella, sfilacci di cavallo, pomodorini, rucola",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Sfilacci di Cavallo", "Pomodorini", "Rucola"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.50,
+        "media": 11.00,
+        "maxi": 16.50
       }
     },
     {
       "id": 43,
-      "nome": "Caprese",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Patapizza",
+      "descrizione": "Pomodoro, mozzarella, patate fritte",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Patate Fritte"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 6.50,
+        "media": 10.50,
+        "maxi": 16.50
       }
     },
     {
       "id": 44,
-      "nome": "Girasole",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Caprese",
+      "descrizione": "Pomodoro, mozzarella, pomodorini, mozzarella di bufala",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Pomodorini", "Mozzarella di Bufala"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.00,
+        "media": 11.00,
+        "maxi": 17.50
       }
     },
     {
       "id": 45,
-      "nome": "Norvegese",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Girasole",
+      "descrizione": "Pomodoro, mozzarella, peperoni, zucchine, mais",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Peperoni", "Zucchine", "Mais"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 6.50,
+        "media": 9.50,
+        "maxi": 16.00
       }
     },
     {
       "id": 46,
-      "nome": "Trevgiana (in stagione)",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Norvegese",
+      "descrizione": "Pomodoro, mozzarella, spinaci, salmone affumicato",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Spinaci", "Salmone Affumicato"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.50,
+        "media": 10.50,
+        "maxi": 16.00
       }
     },
     {
       "id": 47,
-      "nome": "Verdure",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Trevgiana (in stagione)",
+      "descrizione": "Pomodoro, mozzarella, radicchio, salame dolce",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Radicchio", "Salame Dolce"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.00,
+        "media": 11.00,
+        "maxi": 17.50
       }
     },
     {
       "id": 48,
-      "nome": "El Rapido",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Verdure",
+      "descrizione": "Pomodoro, mozzarella, peperoni, melanzane, zucchine",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Peperoni", "Melanzane", "Zucchine"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.50,
+        "media": 11.00,
+        "maxi": 16.50
       }
     },
     {
       "id": 49,
-      "nome": "Hawaii",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "El Rapido",
+      "descrizione": "Pomodoro, mozzarella, peperoni, ricotta, salsiccia",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Peperoni", "Ricotta", "Salsiccia"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.00,
+        "media": 11.00,
+        "maxi": 16.50
       }
     },
     {
       "id": 50,
-      "nome": "Mari e Monti",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Hawaii",
+      "descrizione": "Pomodoro, mozzarella, prosciutto cotto, ananas",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Prosciutto Cotto", "Ananas"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.00,
+        "media": 10.00,
+        "maxi": 16.50
       }
     },
     {
       "id": 51,
-      "nome": "Frutti di Mare",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Mari e Monti",
+      "descrizione": "Pomodoro, mozzarella, porcini, gamberetti",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Porcini", "Gamberetti"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.50,
+        "media": 11.00,
+        "maxi": 17.50
       }
     },
     {
       "id": 52,
-      "nome": "Contadina",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Frutti di Mare",
+      "descrizione": "Pomodoro, mozzarella, gamberetti, granchio, aglio, salmone, frutti di mare",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Gamberetti", "Granchio", "Aglio", "Salmone", "Frutti di Mare"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.50,
+        "media": 11.00,
+        "maxi": 17.50
       }
     },
     {
       "id": 53,
-      "nome": "Re Sole",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Contadina",
+      "descrizione": "Pomodoro, mozzarella, sopressa, chiodini",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Sopressa", "Chiodini"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.00,
+        "media": 12.00,
+        "maxi": 17.50
       }
     },
     {
       "id": 54,
-      "nome": "Fiera",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Re Sole",
+      "descrizione": "Pomodoro, mozzarella, uova, asparagi, salamino piccante",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Uova", "Asparagi", "Salamino Piccante"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.00,
+        "media": 12.00,
+        "maxi": 17.50
       }
     },
     {
       "id": 55,
-      "nome": "Würstel e Patatine",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Fiera",
+      "descrizione": "Pomodoro, mozzarella, salsiccia, peperoni, cipolla",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Salsiccia", "Peperoni", "Cipolla"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.00,
+        "media": 12.00,
+        "maxi": 17.50
       }
     },
     {
       "id": 56,
-      "nome": "Mexico",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Würstel e Patate",
+      "descrizione": "Pomodoro, mozzarella, würstel e patate",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Würstel", "Patate"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.00,
+        "media": 12.00,
+        "maxi": 17.50
       }
     },
     {
       "id": 57,
-      "nome": "Porkis",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Mexico",
+      "descrizione": "Pomodoro, mozzarella, patate mexico",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Patate Mexico"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.00,
+        "media": 11.00,
+        "maxi": 16.50
       }
     },
     {
       "id": 58,
-      "nome": "Jesolana",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Porkis",
+      "descrizione": "Pomodoro, mozzarella, porchetta, patate fritte",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Porchetta", "Patate Fritte"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.00,
+        "media": 12.00,
+        "maxi": 18.00
       }
     },
     {
       "id": 59,
-      "nome": "Heidi",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Jesolana",
+      "descrizione": "Pomodoro, mozzarella, mais, zuchcine, gamberetti",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Mais", "Zucchine", "Gamberetti"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.00,
+        "media": 10.50,
+        "maxi": 16.50
       }
     },
     {
       "id": 60,
-      "nome": "Tirolese",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Heidi",
+      "descrizione": "Pomodoro, mozzarella, chiodini, trifolati, mozzarella di bufala",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Chiodini", "Trifolati", " Mozzarella di Bufala"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 9.00,
+        "media": 12.00,
+        "maxi": 18.50
       }
     },
     {
       "id": 61,
-      "nome": "Viziosa",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Tirolese",
+      "descrizione": "Pomodoro, mozzarella, porcini, panna, speck",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Porcini", "Panna", "Speck"],
       "prezzi": {
-        "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "baby": 7.00,
+        "normale": 7.00,
+        "media": 11.00,
+        "maxi": 17.00
       }
     },
     {
       "id": 62,
-      "nome": "Blanca",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Viziosa",
+      "descrizione": "Pomodoro, mozzarella, olive, capperi, acciughe, mozzarella di bufala, pomodori secchi",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Olive", "Capperi", "Acciughe", "Mozzarella di Bufala", "Pomodori Secchi"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 9.00,
+        "media": 13.00,
+        "maxi": 18.50
       }
     },
     {
       "id": 63,
-      "nome": "Italia",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Blanca",
+      "descrizione": "Mozzarella, stracchino, noci, melanzane",
+      "ingredienti": ["Mozzarella", "Stracchino", "Noci", "Melanzane"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.00,
+        "media": 11.00,
+        "maxi": 16.50
       }
     },
     {
       "id": 64,
-      "nome": "Golosona",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
+      "nome": "Italia",
+      "descrizione": "Pomodoro, mozzarella, pomodorini, ricotta, spinaci",
       "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 7.00,
+        "media": 11.00,
+        "maxi": 16.50
       }
     },
     {
       "id": 65,
-      "nome": "G.P.",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "Golosona",
+      "descrizione": "Pomodoro, mozzarella, salsiccia, gorgonzola, pomodorini, rucola",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Salsiccia", "Gorgonzola", "Pomodorini", "Rucola"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.50,
+        "media": 12.00,
+        "maxi": 18.00
       }
     },
     {
       "id": 66,
-      "nome": "Roger",
-      "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
-      "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
+      "nome": "G.P.",
+      "descrizione": "Pomodoro, mozzarella, prosciutto crudo, mozzarella di bufala, ricotta affumicata",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Prosciutto Crudo", "Mozzarella di Bufala", "Ricotta Affumicata"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 9.00,
+        "media": 12.50,
+        "maxi": 18.50
       }
     },
     {
       "id": 67,
+      "nome": "Roger (in stagione)",
+      "descrizione": "Pomodoro, mozzarella, salsiccia, tartufo, radicchio di Treviso",
+      "ingredienti": ["Pomodoro", "Mozzarella", "Salsiccia", "Tartufo", "Radicchio di Treviso"],
+      "prezzi": {
+        "baby": 6.50,
+        "normale": 9.00,
+        "media": 12.50,
+        "maxi": 18.50
+      }
+    },
+    {
+      "id": 68,
       "nome": "Carbonara",
       "descrizione": "Pomodoro, mozzarella, salame, bacon, cipolla, peperoni",
       "ingredienti": ["Pomodoro", "Mozzarella", "Salame", "Bacon", "Cipolla", "Peperoni"],
       "prezzi": {
         "baby": 6.50,
-        "normale": 9.50,
-        "media": 13.50,
-        "maxi": 19.00
+        "normale": 8.00,
+        "media": 11.00,
+        "maxi": 17.50
       }
     }
   ],

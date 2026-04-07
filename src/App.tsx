@@ -61,7 +61,7 @@ function App() {
               /> */}
             </div>
             <h2 className="text-4xl md:text-5xl font-extrabold mb-4">
-              La Pizza Più Veloce! ⚡
+              La Pizza Più Veloce di Meolo! ⚡
             </h2>
             <p className="text-xl text-red-100 max-w-2xl mx-auto">
               Scopri il nostro menu con le migliori pizze, rotolini e stuzzichini. 
