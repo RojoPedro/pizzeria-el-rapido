@@ -1,5 +1,4 @@
 export interface PrezziPizza {
-  baby: number;
   normale: number;
   media: number;
   maxi: number;
@@ -33,10 +32,9 @@ export interface MenuData {
   stuzzichini: Stuzzichino[];
 }
 
-export type FormatoPizza = 'baby' | 'normale' | 'media' | 'maxi';
+export type FormatoPizza = 'normale' | 'media' | 'maxi';
 
 export const formatiLabels: Record<FormatoPizza, string> = {
-  baby: 'Baby',
   normale: 'Normale',
   media: 'Media',
   maxi: 'Maxi'

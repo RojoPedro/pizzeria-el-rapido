@@ -10,7 +10,7 @@ interface PizzaCardProps {
 export function PizzaCard({ pizza }: PizzaCardProps) {
   const [formatoSelezionato, setFormatoSelezionato] = useState<FormatoPizza>('normale');
 
-  const formati: FormatoPizza[] = ['baby', 'normale', 'media', 'maxi'];
+  const formati: FormatoPizza[] = ['normale', 'media', 'maxi'];
 
   return (
     <div className="bg-white rounded-2xl shadow-lg border-2 border-amber-100 overflow-hidden hover:shadow-xl transition-shadow duration-300">
