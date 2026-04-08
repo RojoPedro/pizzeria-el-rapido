@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Pencil, Trash2, Plus, Loader2 } from 'lucide-react';
+import { Pencil, Trash2, Plus, Loader2, Search } from 'lucide-react';
 
 interface Ingredient {
   id: number;
@@ -13,6 +13,7 @@ export function AdminIngredienti() {
   const [formData, setFormData] = useState({ name: '' });
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [processing, setProcessing] = useState(false);
+  const [search, setSearch] = useState('');
 
   const fetchIngredients = async () => {
     try {
@@ -115,17 +116,40 @@ export function AdminIngredienti() {
     return <div className="flex justify-center p-12"><Loader2 className="w-8 h-8 animate-spin text-red-600" /></div>;
   }
 
+  const filteredIngredients = ingredients.filter(ing => 
+    ing.name.toLowerCase().includes(search.toLowerCase())
+  );
+
   return (
     <div className="space-y-6">
-      <div className="flex justify-between items-center">
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <h1 className="text-3xl font-bold text-gray-800">Ingredienti</h1>
-        <button 
-          onClick={() => openForm()}
-          className="flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition"
-        >
-          <Plus className="w-5 h-5" />
-          Nuovo Ingrediente
-        </button>
+        <div className="flex items-center gap-2 w-full md:w-auto">
+          <div className="relative flex-1 md:w-64">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
+            <input 
+              type="text"
+              placeholder="Cerca ingrediente..."
+              value={search}
+              onChange={e => setSearch(e.target.value)}
+              className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-red-500 focus:border-red-500"
+            />
+          </div>
+          <button 
+            onClick={() => openForm()}
+            className="flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition"
+          >
+            <Plus className="w-5 h-5" />
+            Nuovo Ingrediente
+          </button>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
+        <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-200 w-full md:w-64">
+          <p className="text-xs text-gray-500 uppercase font-bold mb-1">Ingredienti Totali</p>
+          <p className="text-2xl font-bold text-blue-600">{ingredients.length}</p>
+        </div>
       </div>
 
       {isFormOpen && (
@@ -166,15 +190,15 @@ export function AdminIngredienti() {
         <table className="min-w-full divide-y divide-gray-200">
           <thead className="bg-gray-50">
             <tr>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">ID</th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-12">N.</th>
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Nome</th>
-              <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Azioni</th>
+              <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider w-28">Azioni</th>
             </tr>
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">
-            {ingredients.map(ing => (
-              <tr key={ing.id}>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{ing.id}</td>
+            {filteredIngredients.map((ing, index) => (
+              <tr key={ing.id} className="hover:bg-gray-50 transition">
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-400">{index + 1}</td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{ing.name}</td>
                 <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium flex justify-end gap-2">
                   <button 
@@ -194,10 +218,13 @@ export function AdminIngredienti() {
                 </td>
               </tr>
             ))}
-            {ingredients.length === 0 && (
+            {filteredIngredients.length === 0 && (
               <tr>
-                <td colSpan={3} className="px-6 py-8 text-center text-gray-500">
-                  Nessun ingrediente trovato.
+                <td colSpan={3} className="px-6 py-12 text-center text-gray-500">
+                  <div className="flex flex-col items-center gap-2">
+                    <Search className="w-8 h-8 text-gray-200" />
+                    <p>Nessun ingrediente trovato.</p>
+                  </div>
                 </td>
               </tr>
             )}
