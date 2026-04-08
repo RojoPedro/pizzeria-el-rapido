@@ -17,9 +17,11 @@ export function AdminIngredienti() {
   const fetchIngredients = async () => {
     try {
       setLoading(true);
+      const token = localStorage.getItem('admin_auth_token');
       const res = await fetch('https://elrapido-backend-production.up.railway.app/api/ingredients', {
         headers: {
-          'Accept': 'application/json'
+          'Accept': 'application/json',
+          'Authorization': `Bearer ${token}`
         }
       });
       const data = await res.json();

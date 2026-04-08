@@ -42,9 +42,20 @@ export function AdminPizze() {
   const fetchData = async () => {
     try {
       setLoading(true);
+      const token = localStorage.getItem('admin_auth_token');
       const [resPizze, resIng] = await Promise.all([
-        fetch('https://elrapido-backend-production.up.railway.app/api/pizze', { headers: { 'Accept': 'application/json' } }),
-        fetch('https://elrapido-backend-production.up.railway.app/api/ingredients', { headers: { 'Accept': 'application/json' } })
+        fetch('https://elrapido-backend-production.up.railway.app/api/pizze?all=1', { 
+          headers: { 
+            'Accept': 'application/json',
+            'Authorization': `Bearer ${token}`
+          } 
+        }),
+        fetch('https://elrapido-backend-production.up.railway.app/api/ingredients', { 
+          headers: { 
+            'Accept': 'application/json',
+            'Authorization': `Bearer ${token}`
+          } 
+        })
       ]);
       const dataPizze = await resPizze.json();
       const dataIng = await resIng.json();
@@ -124,7 +135,7 @@ export function AdminPizze() {
       // Il backend si aspetta 'ingredients' come array di ID o stringa delimitata,
       // la documentazione lo descrive come form field. Proviamo a mandarlo come array JSON.
       const payload = {
-        nome: formData.nome,
+        name: formData.nome, // Backend si aspetta 'name'
         is_visible: formData.is_visible,
         price_normale: parseFloat(formData.price_normale),
         price_media: parseFloat(formData.price_media),
